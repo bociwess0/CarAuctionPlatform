@@ -17,4 +17,13 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+try
+{
+    DBInitializer.InitDb(app);
+}
+catch (System.Exception e)
+{
+    System.Console.WriteLine(e.Message);    
+}
+
 app.Run();
