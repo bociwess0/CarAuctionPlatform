@@ -35,3 +35,4 @@ C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\obj\Debug\net8.0\re
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\obj\Debug\net8.0\SearchService.pdb
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\obj\Debug\net8.0\SearchService.genruntimeconfig.cache
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\obj\Debug\net8.0\ref\SearchService.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\bin\Debug\net8.0\Data\auctions.json
