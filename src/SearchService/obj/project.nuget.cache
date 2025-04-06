@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5pdLhhp+jAFXEQEnfHDCrnzbBPWptZ+x9gmjlT+1nmwPF0CssLyqINNKAYl5jDW5tXs+YoTxkKimQuFRX7lOuQ==",
+  "dgSpecHash": "rrLB/G4OZSFec5pXh2EAMVcHLsZVPdYC6UbmRyxNqQlIm+xlf6PY1Oqmw2O4uqxhLKXD4bTSKxoivHAylTK1HQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bogdan\\Desktop\\CarAuctionPlatform\\src\\SearchService\\SearchService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bogdan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\docker.dotnet\\3.125.15\\docker.dotnet.3.125.15.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\masstransit\\8.3.0\\masstransit.8.3.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\masstransit.abstractions\\8.3.0\\masstransit.abstractions.8.3.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\masstransit.rabbitmq\\8.3.0\\masstransit.rabbitmq.8.3.0.nupkg.sha512",
@@ -34,6 +35,7 @@
     "C:\\Users\\Bogdan\\.nuget\\packages\\mongodb.bson\\3.2.0\\mongodb.bson.3.2.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\mongodb.driver\\3.2.0\\mongodb.driver.3.2.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\mongodb.entities\\24.1.1\\mongodb.entities.24.1.1.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
@@ -46,6 +48,7 @@
     "C:\\Users\\Bogdan\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
   "logs": []
