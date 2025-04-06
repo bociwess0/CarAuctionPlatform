@@ -115,3 +115,5 @@ C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\AuctionService\bin\Debug\net8.0\M
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\AuctionService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\AuctionService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\AuctionService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\AuctionService\bin\Debug\net8.0\Docker.DotNet.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\AuctionService\bin\Debug\net8.0\Newtonsoft.Json.dll

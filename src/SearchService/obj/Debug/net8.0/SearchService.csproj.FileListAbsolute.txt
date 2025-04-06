@@ -59,3 +59,5 @@ C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\bin\Debug\net8.0\Ma
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\bin\Debug\net8.0\Contracts.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\bin\Debug\net8.0\Contracts.pdb
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\bin\Debug\net8.0\Docker.DotNet.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\SearchService\bin\Debug\net8.0\Newtonsoft.Json.dll
