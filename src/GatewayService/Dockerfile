@@ -15,8 +15,8 @@ COPY src/IdentityService/IdentityService.csproj src/IdentityService/IdentityServ
 RUN dotnet restore CarAuctionPlatform.sln
 
 # Copy the app folders over
-COPY src/IdentityService src/IdentityService
-WORKDIR /app/src/IdentityService
+COPY src/GatewayService src/GatewayService
+WORKDIR /app/src/GatewayService
 RUN dotnet publish -c Release -o /app/src/out
 
 # Build runtime image
