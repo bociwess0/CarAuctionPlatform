@@ -15,7 +15,7 @@ export default function Listings() {
     const params = useParamsStore(useShallow(state=> ({
       pageNumber: state.pageNumber,
       pageSize: state.pageSize,
-      searchTearm: state.searchTerm
+      searchTerm: state.searchTerm
     })));
 
     const setParams = useParamsStore(state => state.setParams);

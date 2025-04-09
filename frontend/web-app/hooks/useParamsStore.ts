@@ -26,7 +26,7 @@ export const useParamsStore = create<State & Actions>()((set) => ({
         if(newParams.pageNumber) {
             return { ...state, pageNumber: newParams.pageNumber }
         } else {
-            return {...state, ...newParams, pageNumber: 1}
+            return { ...state, ...newParams, pageNumber: 1}
         }
     })
    },
