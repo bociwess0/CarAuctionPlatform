@@ -11,39 +11,40 @@ const pageSizeButtons = [4,8,12];
 
 const orderButtons = [
   {
-    label: "Alphabetical",
-    icon: AiOutlineSortAscending,
-    value: 'make'
+      label: 'Alphabetical',
+      icon: AiOutlineSortAscending,
+      value: 'make'
   },
   {
-    label: "Ending < 6 hours",
-    icon: GiFinishLine,
-    value: 'endingSoon'
+      label: 'End date',
+      icon: AiOutlineClockCircle,
+      value: 'endingSoon'
   },
   {
-    label: "Completed",
-    icon: BsStopwatchFill,
-    value: 'finished'
+      label: 'Recently added',
+      icon: BsFillStopCircleFill,
+      value: 'new'
   },
 ]
 
 const filterButtons = [
   {
-    label: "Live Auctions",
-    icon: GiFlame,
-    value: 'make'
+      label: 'Live Auctions',
+      icon: GiFlame,
+      value: 'make'
   },
   {
-    label: "End date",
-    icon: AiOutlineClockCircle,
-    value: 'endingSoon'
+      label: 'Ending < 6 hours',
+      icon: GiFinishLine,
+      value: 'endingSoon'
   },
   {
-    label: "RecentlyAdded",
-    icon: BsFillStopCircleFill,
-    value: 'make'
+      label: 'Completed',
+      icon: BsStopwatchFill,
+      value: 'finished'
   },
 ]
+
 
 export default function Filters() {
 
