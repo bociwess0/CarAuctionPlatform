@@ -1,17 +1,22 @@
 import { auth } from '@/auth'
 import React from 'react'
 import Heading from '../components/Heading';
+import AuthTest from './AuthTest';
 
 export default async function Session() {
   const session = await auth();
   
   return (
     <div>
-      <Heading title='Seassion dashboard' />
+      <Heading title='Session dashboard' />
 
       <div className='bg-blue-100 border-2 border-blue-500'>
         <h3 className='text-lg'>Session data</h3>
         <pre>{JSON.stringify(session,null,2)}</pre>
+      </div>
+
+      <div className='mt-4'>
+        <AuthTest />
       </div>
 
     </div>
