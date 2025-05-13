@@ -13,6 +13,10 @@ declare module "next-auth" {
     username: string;
   }
 
+  interface User {
+    username: stiring
+  }
+
 }
 
 declare module 'next-auth/jwt' {
