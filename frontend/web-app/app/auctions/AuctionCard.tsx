@@ -9,6 +9,8 @@ type Props = {
 }
 
 export default function AuctionCard({auction} : Props) {    
+  console.log(`${auction.make} ${auction.model}: `  + auction.auctionEnd);
+  
   return (
     <Link href={`/auctions/details/${auction.id}`} className='group'>
       <div className='relative w-full bg-gray-200 aspect-[16/10] rounded-lg overflow-hidden'>
