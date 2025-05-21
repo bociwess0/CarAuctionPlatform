@@ -45,3 +45,5 @@ C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\r
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\BiddingService.pdb
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\BiddingService.genruntimeconfig.cache
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\ref\BiddingService.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Contracts.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Contracts.pdb
