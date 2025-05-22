@@ -47,3 +47,5 @@ C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\B
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\ref\BiddingService.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Contracts.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Contracts.pdb
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

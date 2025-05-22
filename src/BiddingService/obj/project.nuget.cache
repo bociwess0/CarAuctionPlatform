@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "C4qbXSBWuySqmEwHQWWdxbrDPCtAw4Irc3LnUd+59CU9RUrba+fXcz/+jTGCUL0RdCzd5XmbvRqHaY1t+yETKw==",
+  "dgSpecHash": "Nk/di+M/rr0D/3OEOVk7cHEm0sDRGiUI3yXfI9UXGnMKnD3fd7tKkzTtD2DTHNBqu1GPW5Yur/34LShocnGTCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bogdan\\Desktop\\CarAuctionPlatform\\src\\BiddingService\\BiddingService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Bogdan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\masstransit\\8.3.0\\masstransit.8.3.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\masstransit.abstractions\\8.3.0\\masstransit.abstractions.8.3.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\masstransit.rabbitmq\\8.3.0\\masstransit.rabbitmq.8.3.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.3\\microsoft.aspnetcore.authentication.jwtbearer.8.0.3.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
