@@ -19,7 +19,7 @@ public class AuctionFinishedConsumer : IConsumer<AuctionFinished>
 
         System.Console.WriteLine("---> Consuming auction finished...");
     
-        var auction = await _context.Auctions.FindAsync(context.Message.AuctionId);
+        var auction = await _context.Auctions.FindAsync(Guid.Parse(context.Message.AuctionId));
 
         if(context.Message.ItemSold) {
             auction.Winner = context.Message.Winner;
