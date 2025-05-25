@@ -13,7 +13,7 @@ public class GrpcAuctionService : GrpcAuction.GrpcAuctionBase
         _dbContext = dbContext;
     }
 
-    public override async Task<GrpcAuctionResponse> GetAuction(GetAuctonRequest request, ServerCallContext context)
+    public override async Task<GrpcAuctionResponse> GetAuction(GetAuctionRequest request, ServerCallContext context)
     {
         System.Console.WriteLine("==> Received Grpc request for auction");
 
@@ -24,10 +24,10 @@ public class GrpcAuctionService : GrpcAuction.GrpcAuctionBase
         {
             Auction = new GrpcAuctionModel
             {
-                Id = auction.Id.ToString(),
                 AuctionEnd = auction.AuctionEnd.ToString(),
+                Id = auction.Id.ToString(),
                 ReservePrice = auction.ReservePrice,
-                Seller = auction.Seller,
+                Seller = auction.Seller
             }
         };
 

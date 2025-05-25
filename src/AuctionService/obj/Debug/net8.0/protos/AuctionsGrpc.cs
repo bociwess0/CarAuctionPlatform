@@ -46,16 +46,16 @@ namespace AuctionService {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::AuctionService.GetAuctonRequest> __Marshaller_GetAuctonRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::AuctionService.GetAuctonRequest.Parser));
+    static readonly grpc::Marshaller<global::AuctionService.GetAuctionRequest> __Marshaller_GetAuctionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::AuctionService.GetAuctionRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::AuctionService.GrpcAuctionResponse> __Marshaller_GrpcAuctionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::AuctionService.GrpcAuctionResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::AuctionService.GetAuctonRequest, global::AuctionService.GrpcAuctionResponse> __Method_GetAuction = new grpc::Method<global::AuctionService.GetAuctonRequest, global::AuctionService.GrpcAuctionResponse>(
+    static readonly grpc::Method<global::AuctionService.GetAuctionRequest, global::AuctionService.GrpcAuctionResponse> __Method_GetAuction = new grpc::Method<global::AuctionService.GetAuctionRequest, global::AuctionService.GrpcAuctionResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetAuction",
-        __Marshaller_GetAuctonRequest,
+        __Marshaller_GetAuctionRequest,
         __Marshaller_GrpcAuctionResponse);
 
     /// <summary>Service descriptor</summary>
@@ -69,7 +69,7 @@ namespace AuctionService {
     public abstract partial class GrpcAuctionBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::AuctionService.GrpcAuctionResponse> GetAuction(global::AuctionService.GetAuctonRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::AuctionService.GrpcAuctionResponse> GetAuction(global::AuctionService.GetAuctionRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -92,7 +92,7 @@ namespace AuctionService {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, GrpcAuctionBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_GetAuction, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::AuctionService.GetAuctonRequest, global::AuctionService.GrpcAuctionResponse>(serviceImpl.GetAuction));
+      serviceBinder.AddMethod(__Method_GetAuction, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::AuctionService.GetAuctionRequest, global::AuctionService.GrpcAuctionResponse>(serviceImpl.GetAuction));
     }
 
   }

@@ -5,7 +5,13 @@ C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\B
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\BiddingService.runtimeconfig.json
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\BiddingService.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\BiddingService.pdb
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Grpc.Net.Common.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\MassTransit.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\MassTransit.Abstractions.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
@@ -24,6 +30,8 @@ C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\S
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Snappier.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Contracts.dll
+C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Contracts.pdb
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\BiddingService.csproj.AssemblyReference.cache
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\BiddingService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\BiddingService.AssemblyInfoInputs.cache
@@ -45,7 +53,3 @@ C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\r
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\BiddingService.pdb
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\BiddingService.genruntimeconfig.cache
 C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\obj\Debug\net8.0\ref\BiddingService.dll
-C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Contracts.dll
-C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\Contracts.pdb
-C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\Bogdan\Desktop\CarAuctionPlatform\src\BiddingService\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
