@@ -1,7 +1,6 @@
 'use client'
 
 import { deleteAuction } from '@/app/actions/auctionActions';
-import { error } from 'console';
 import { Button } from 'flowbite-react';
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react'
@@ -26,7 +25,7 @@ export default function DeleteButton({id}: Props) {
             }).finally(() => setLoading(false));
     }
   return (
-    <Button color='failure' outline onClick={doDelete} >
+    <Button color='red' outline onClick={doDelete} >
         Delete Auction
     </Button>
   )
