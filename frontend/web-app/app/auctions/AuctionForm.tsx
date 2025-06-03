@@ -1,7 +1,7 @@
 'use client'
-import { Button, TextInput } from 'flowbite-react';
+import { Button } from 'flowbite-react';
 import React, { useEffect } from 'react'
-import { FieldValue, FieldValues, useForm } from 'react-hook-form'
+import { FieldValues, useForm } from 'react-hook-form'
 import Input from '../components/Input';
 import DateInput from '../components/DateInput';
 import { createAuction, updateAuction } from '../actions/auctionActions';
@@ -16,7 +16,7 @@ type Props = {
 export default function AuctionForm({auction}: Props) {
     const router = useRouter();
     const pathname = usePathname();
-    const {control, handleSubmit, setFocus, reset ,formState: {isSubmitting, isValid}} = useForm({
+    const {control, handleSubmit, setFocus, reset ,formState: { isValid}} = useForm({
         mode: 'onTouched'
     });
 
@@ -26,7 +26,7 @@ export default function AuctionForm({auction}: Props) {
             reset({make, model, color, mileage, year});
         }
         setFocus('make')
-    }, [setFocus])
+    }, [setFocus, auction, reset])
 
     async function onSubmit(data: FieldValues) {
         try {
@@ -48,8 +48,12 @@ export default function AuctionForm({auction}: Props) {
 
             router.push(`/auctions/details/${id}`)
 
-        } catch (error: any) {
-            toast.error(error.status + ' ' + error.message);
+        } catch (error: unknown) {
+            if (error && typeof error === 'object' && 'message' in error) {
+                toast.error(`${(error as { status?: string; message: string }).status ?? ''} ${(error as { message: string }).message}`);
+            } else {
+                toast.error('An unexpected error occurred');
+            }
         }
     }
 

@@ -1,13 +1,16 @@
+'use client'
+
 import React from 'react'
 import Search from './search';
 import Logo from './Logo';
 import LoginButton from './LoginButton';
-import { getCurrentUser } from '../actions/authActions';
 import UserActions from './UserActions';
+import { useSession } from 'next-auth/react';
 
-export default async function Navbar() {
+export default function Navbar() {
 
-  const user = await getCurrentUser();
+  const session = useSession();
+  const user = session.data?.user;
 
   return (
     <header className='

@@ -4,20 +4,22 @@ import { useAuctionStore } from '@/hooks/useAuctionStore';
 import { useBidStore } from '@/hooks/useBidStore';
 import { Auction, AuctionFinished, Bid } from '@/types';
 import { HubConnection, HubConnectionBuilder } from '@microsoft/signalr';
-import { User } from 'next-auth';
 import { useParams } from 'next/navigation';
 import React, { ReactNode, useCallback, useEffect, useRef } from 'react'
 import toast from 'react-hot-toast';
 import AuctionCreatedToast from '../components/AuctionCreatedToast';
 import { getDetailedViewData } from '../actions/auctionActions';
 import AuctionFinishedToast from '../components/AuctionFinishedToast';
+import { useSession } from 'next-auth/react';
 
 type Props = {
     children: ReactNode,
-    user: User | null
 }
 
-export default function SignalRProvider({children, user}: Props) {
+export default function SignalRProvider({children}: Props) {
+    const session = useSession();
+    const user = session.data?.user;
+
     const connection = useRef<HubConnection | null>(null);
     const setCurrentPrice = useAuctionStore(state => state.setCurrentPrice)
     const addBid = useBidStore(state => state.addBid)
@@ -29,7 +31,10 @@ export default function SignalRProvider({children, user}: Props) {
         return toast.promise(auction, {
             loading: 'Loading',
             success: (auction) => <AuctionFinishedToast auction={auction} finishedAuction={finishedAuction} />,
-            error: (err) => 'Auction finished'
+            error: (err) => {
+                console.log(err);
+                return 'Auction finished'
+            }
         }, { success: {duration: 10000, icon: null} })
     }, [])
     
@@ -56,7 +61,7 @@ export default function SignalRProvider({children, user}: Props) {
     useEffect(() => {
         if(!connection.current) {
             connection.current = new HubConnectionBuilder()
-                .withUrl('http://localhost:7004/notifications')
+                .withUrl(process.env.NEXT_PUBLIC_NOTIFY_URL!)
                 .withAutomaticReconnect()
                 .build();
 

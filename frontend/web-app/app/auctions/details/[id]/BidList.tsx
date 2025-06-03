@@ -4,7 +4,6 @@ import { getBidForAuction } from '@/app/actions/auctionActions'
 import Heading from '@/app/components/Heading'
 import { useBidStore } from '@/hooks/useBidStore'
 import { Auction, Bid } from '@/types'
-import { error } from 'console'
 import { User } from 'next-auth'
 import React, { useEffect, useState } from 'react'
 import toast from 'react-hot-toast'
@@ -32,11 +31,11 @@ export default function BidList({user, auction}: Props) {
 
     useEffect(() => {
         getBidForAuction(auction.id)
-            .then((res: any) => {
-                if(res.error) {
-                    throw res.error
+            .then((res: Bid[] | { error: { message: string } }) => {
+                if ('error' in res) {
+                    throw res.error;
                 }
-                setBids(res as Bid[])
+                setBids(res);
             }).catch(error => {
                 toast.error(error.message);
             }).finally(() => setLoading(false));

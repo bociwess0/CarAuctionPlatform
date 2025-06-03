@@ -111,4 +111,21 @@ services:
       - 7004:80
     depends_on:
       - rabbitmq
-      
+  web-app:
+    image: bogdandj10/web-app:latest
+    build: 
+      context: .
+      dockerfile: frontend/web-app/Dockerfile
+    volumes:
+      - /var/lib/web/data
+    ports:
+    - 3000:3000
+    environment:
+      - AUTH_SECRET="2QxrkNONgYM3wJQTYGu+uRaoDIVSLs9b5pDOmfGTsyI="
+      - API_URL=http://gateway-svc/
+      - ID_URL=http://localhost:5001
+      - AUTH_URL=http://localhost:3000
+      - AUTH_URL_INTERNAL=http://web-app:3000
+volumes:
+  pgdata:
+  mongodbdata:

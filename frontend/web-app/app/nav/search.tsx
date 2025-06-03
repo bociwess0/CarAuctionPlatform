@@ -12,7 +12,7 @@ export default function Search() {
     const setSearchValue = useParamsStore(state => state.setSearchvalue)
     const searchValue = useParamsStore(state => state.searchValue);
 
-    function onChange(event: any) {
+    function onChange(event: React.ChangeEvent<HTMLInputElement>) {
         setSearchValue(event.target.value);
     }
 
@@ -26,8 +26,8 @@ export default function Search() {
         <input type="text" placeholder='Search for cars by make, model or color'
             className='input-custom' 
             onChange={onChange}
-            onKeyDown={(e: any) => {
-                if(e.key === 'Enter') searchHandler();
+            onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
+                if (e.key === 'Enter') searchHandler();
             }}
             value={searchValue}
             />
